@@ -1,0 +1,7 @@
+:root {
+    --marian-blue: #3C487D;
+}
+
+* {
+    color: var(--marian-blue);
+}
