@@ -3,11 +3,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './custom-navbar.css'
 
+import logo from '../../assets/imgs/logo-club-noel.png';
+
 const CustomNavbar = () => {
     return (
         <Navbar expand="lg" className="bg-white d-flex justify-content-center">
             <div className='d-flex'>
-                <Navbar.Brand href="#home"><img className='navbar-brand' src="src/assets/imgs/logo-club-noel-2024-horizontal.png" alt="" /></Navbar.Brand>
+                <Navbar.Brand href="#home"><img className='navbar-brand' src={logo} alt="" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
