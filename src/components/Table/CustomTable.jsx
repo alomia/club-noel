@@ -34,6 +34,7 @@ const CustomTable = () => {
                                 <th>Nombre</th>
                                 <th>Cedula</th>
                                 <th>Tipo de Sangre</th>
+                                <th></th>
                             </tr>
                         </thead>
                         <tbody>
