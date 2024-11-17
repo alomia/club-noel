@@ -1,3 +1,9 @@
 .navbar-brand {
     width: 208px;
 }
+
+.divider {
+    height: 50px;
+    background-color: var(--marian-blue);
+}
+
